@@ -1,0 +1,39 @@
+.screen-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px var(--horizontal-space);
+}
+
+.screen-header__title {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+.screen-header__icons span {
+    margin-left: 25px;
+    position: relative;
+}
+
+.screen-header__list {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+
+.screen-header__point {
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: -10px;
+    top: -7px
+}
